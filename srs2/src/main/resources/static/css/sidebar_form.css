@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+body {
+  font-family: "Lato", sans-serif;
+   overflow-x: hidden;
+   background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('images/download.png');
+  height: 650px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+   background-color: #101b7d;
+   color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+ 
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn1, .dropdown-btn2,.dropdown-btn3,.dropdown-btn4 {
+   padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #e0dddd;
+  display: block;
+  transition: 0.3s;
+border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn1:hover, .dropdown-btn2:hover,.dropdown-btn3:hover,.dropdown-btn4:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  /*background-color: green;*/
+  background-color: #545e9c;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container1, .dropdown-container2,.dropdown-container3,.dropdown-container4 {
+  display: none;
+  background-color: #261f52;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.wood-text {
+   
+    background: url('https://i.imgur.com/OUyfQnt.jpg');
+     
+    
+     text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Rancho', cursive;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   margin-top: -40px;
+  }
+
+
+
+
+  .container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+ /* flex-wrap: wrap;*/
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;  
+  margin-top: -100px;
+
+}
+
+
+.card {
+  /*-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;*/
+  background: #fff;
+  margin: 100px;
+ 
+}
+
+.card-4 {
+  background: #fff;
+  /*-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);*/
+}
+
+
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+.card-4 .card-body {
+  padding: 50px 60px;
+  padding-bottom: 65px;
+  padding: 50px 60px;
+  padding-bottom: 65px;
+  border-width: 1px;
+ 
+    box-shadow: 0 0 10px rgb(0 0 0 / 60%);
+  border-color: rgb(192, 192, 192);
+  border-style: solid;
+}
+
+@media (max-width: 767px) {
+  .card-4 .card-body {
+    padding: 50px 40px;
+     border-width: 2px;
+  border-radius: 23px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 60%);
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  }
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.label {
+  font-size: 16px;
+  color: #555;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.input--style-4 {
+  line-height: 30px;
+  background: #fafafa;
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #666;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.btn--radius-2 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.btn--blue {
+  background: #4272d7;
+}
+
+.btn--blue:hover {
+  background: #3868cd;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 30px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
